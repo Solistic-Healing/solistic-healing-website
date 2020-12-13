@@ -1,3 +1,4 @@
 module.exports = {
-  plugins: ["gatsby-plugin-postcss"],
+//   plugins: ["gatsby-plugin-postcss", "gatsby-plugin-styled-components"],
+   plugins: ["gatsby-plugin-styled-components"]
 };
