@@ -24,13 +24,14 @@ const NavItem = styled(Link)`
     width: 0%;
     content: ".";
     color: transparent;
-    background: pink;
+   //  background: #28f5cc;
+    background: #f7c46f;
     height: 1px;
     transition: all 0.4s ease-in;
   }
 
   :hover {
-    color: lightblue;
+    color: #9ca4ac;
     ::after {
       width: 100%;
     }

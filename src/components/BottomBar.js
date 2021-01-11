@@ -1,10 +1,11 @@
 // Navbar.js
 import React, { useState } from "react"
-import NavbarLinks from "./NavbarLinks"
-import Logo from "./Logo"
+import NavbarLinks from "./Navbar/NavbarLinks"
+// import Logo from "..Navbar/Logo"
 import styled from 'styled-components'
 
 const Navigation = styled.nav`
+  bottom: 0px
   height: 75px;
   display: flex;
   background-color: #383c66;
@@ -88,7 +89,7 @@ const Hamburger = styled.div`
     top: 10px;
   }
 `
-const Navbar = () => {
+const BottomBar = () => {
    const [navbarOpen, setNavbarOpen] = useState(false)
 
    return (
@@ -113,4 +114,4 @@ const Navbar = () => {
    )
 }
 
-export default Navbar
+export default BottomBar

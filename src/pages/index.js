@@ -1,12 +1,13 @@
 import * as React from "react"
 import { Link } from "gatsby"
 import Navbar from "../components/Navbar/Navbar"
-import Background from "../assets/img/space-stars.jpg"
+import BottomBar from "../components/BottomBar"
+import Background from "../assets/img/circlestarsbg.jpg"
 
 // styles
 const pageStyles = {
   height: "700px",
-  color: "#232129",
+//   color: "#232129",
 //   paddingLeft: ".5vw",
 //   paddingRight: ".5vw",
 //   paddingTop: ".5vh",
@@ -19,7 +20,17 @@ const primaryContentStyles = {
    marginTop: '25px',
    width: '75%',
    border: '3px solid whitesmoke',
-   padding: '10px'
+   // TESTING BG IMAGE
+     /* The image used */
+//   backgroundImage: url(Background),
+
+  /* Full height */
+//   height: '100%',
+
+//   /* Center and scale the image nicely */
+//   backgroundPosition: 'center',
+//   backgroundRepeat: 'no-repeat',
+//   backgroundSize: 'cover'
 }
 
 const headingStyles = {
@@ -32,6 +43,32 @@ const headingStyles = {
 //   width: '100%'
 }
 
+const rightFooterContent = {
+   padding: '6px',
+   textAlign: 'right'
+}
+
+const footerContent = {
+   padding: '10px',
+   textAlign: 'center',
+   display: 'flex',
+   justifyContent: 'space-between'
+}
+const footer = {
+   position: 'fixed',
+   left: 0,
+   bottom: 0,
+   width: '100%',
+   height: '35px',
+   // backgroundColor: '#dcdcdc',
+   backgroundColor: 'gray',
+   // color: 'gray',
+   color: 'black',
+   fontStyle: 'italic',
+   fontFamily: 'Helvetica, cursive',
+   fontSize: '12px',
+   // margin: 'auto'
+}
 const headingAccentStyles = {
   color: "gray",
 }
@@ -105,6 +142,14 @@ const IndexPage = () => {
             🎉
          </span>
          </h1>
+      </div>
+      {/* <BottomBar/> */}
+      <div style={footer}>
+         <div style={footerContent}>
+            <div><b>Hours | </b> M - F 8pm - 5pm CST</div>
+            <div><b>© Solistic Healing 2021</b></div>
+            <div><b>Contact | </b> (651)-434-8636</div>
+         </div>
       </div>
     </main>
   )
