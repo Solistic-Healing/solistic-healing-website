@@ -143,14 +143,14 @@ const IndexPage = () => {
          </span>
          </h1>
       </div>
-      {/* <BottomBar/> */}
-      <div style={footer}>
+      <BottomBar/>
+      {/* <div style={footer}>
          <div style={footerContent}>
             <div><b>Hours | </b> M - F 8pm - 5pm CST</div>
             <div><b>© Solistic Healing 2021</b></div>
             <div><b>Contact | </b> (651)-434-8636</div>
          </div>
-      </div>
+      </div> */}
     </main>
   )
 }

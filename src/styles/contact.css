@@ -63,6 +63,7 @@ body {
 .twoboxes {
    display: flex;
    flex-wrap: wrap;
+   margin: 20px;
 }
 
 textarea{
@@ -86,6 +87,7 @@ textarea{
     font-size:18px;
     color:#fff;
     overflow:hidden;
+    font-family: 'Source Sans Pro', sans-serif
 }
 
 input {

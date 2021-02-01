@@ -3,6 +3,30 @@ import React, { useState } from "react"
 import NavbarLinks from "./Navbar/NavbarLinks"
 // import Logo from "..Navbar/Logo"
 import styled from 'styled-components'
+import '../styles/bottombar.css'
+
+
+const footerContent = {
+   padding: '10px',
+   textAlign: 'center',
+   display: 'flex',
+   justifyContent: 'space-between'
+}
+const footer = {
+   position: 'fixed',
+   left: 0,
+   bottom: 0,
+   width: '100%',
+   height: '35px',
+   // backgroundColor: '#dcdcdc',
+   backgroundColor: 'white',
+   // color: 'gray',
+   color: 'black',
+   fontStyle: 'italic',
+   fontFamily: 'Helvetica, cursive',
+   fontSize: '12px',
+   // margin: 'auto'
+}
 
 const Navigation = styled.nav`
   bottom: 0px
@@ -90,27 +114,16 @@ const Hamburger = styled.div`
   }
 `
 const BottomBar = () => {
-   const [navbarOpen, setNavbarOpen] = useState(false)
+   // const [navbarOpen, setNavbarOpen] = useState(false)
 
    return (
-      <Navigation>
-         {/* <Logo /> */}
-         <Toggle
-            navbarOpen={navbarOpen}
-            onClick={() => setNavbarOpen(!navbarOpen)}
-         >
-            {navbarOpen ? <Hamburger open /> : <Hamburger />}
-         </Toggle>
-         {navbarOpen ? (
-            <Navbox>
-               <NavbarLinks />
-            </Navbox>
-         ) : (
-               <Navbox open>
-                  <NavbarLinks />
-               </Navbox>
-            )}
-      </Navigation>
+      <div style={footer}>
+      <div style={footerContent}>
+         <div><b>Hours | </b> M - F 8pm - 5pm CST</div>
+         <div id='email'><b>© Solistic Healing 2021</b></div>
+         <div><b>Email | </b> ericpeterson@solistichealing.org</div>
+      </div>
+   </div>
    )
 }
 
