@@ -91,19 +91,31 @@ const ApproachLayoutStyles = {
  const imageContainer = {
     display: 'flex',
     justifyContent: 'center',
-    alignItems: 'center'
+   //  justifyContent: 'center',
+   //  alignItems: 'center'
  }
 
- const member = {
-    marginLeft: 'auto',
-    marginRight: 'auto',
-    width: '375px',
-    height: '250px',
-    borderRadius: '1000px',
-    border: '3px solid #404040',
-    backgroundColor: 'white',
+ const ricky = {
+   //  marginLeft: 'auto',
+   //  marginRight: 'auto',
+   //  width: '390px',
+    height: '300px',
+   //  borderRadius: '1000px',
+    border: '3px solid black',
+    backgroundColor: 'black',
     marginTop: '25px',
  }
+
+ const activeEric = {
+   // marginLeft: 'auto',
+   // marginRight: 'auto',
+   // width: '320px',
+   height: '300px',
+   // borderRadius: '1000px',
+   border: '3px solid black',
+   backgroundColor: 'black',
+   marginTop: '25px',
+}
 
  const PersonContentStyles = {
    margin: 'auto',
@@ -177,7 +189,8 @@ const About = () => {
          </div>
         <br/> */}
          <div style={imageContainer} >
-            <img style={member} src={ric}/>
+            <img style={ricky} src={ric}/>
+            <img style={activeEric} src={eric}/>
             {/* <h2 style={MemberTextStyles}>Eric Peterson</h2> */}
             {/* <h4 style={MemberDescriptionTextStyles}>description goes here</h4> */}
          </div>
