@@ -178,7 +178,7 @@ const FAQ = () => {
                <div>
                   <h2 style={ApproachTextStyles}>What is Ketamine-assisted psychotherapy?</h2>
                   <h4 style={ApproachDescriptionTextStyles}>
-                     Ketamine-assisted psychotherapy is using ketamine as a catalyst to enhance the therapeutic process. Ketamine allows people to access material that is normally hidden from conscious awareness to then process unresolved emotions and memories that are affecting their present self. Ketamine induces a holotropic state of consciousness, a word coined by Stanislav Grof, which is a type of consciousness that moves someone towards healing and wholeness.
+                     Ketamine-assisted psychotherapy is using ketamine as a catalyst to enhance the therapeutic process. Ketamine is a tool that is used to assist the therapeutic process. Ketamine allows people to access material that is normally hidden from conscious awareness to then process unresolved emotions and memories that are affecting their present self. Ketamine induces a holotropic state of consciousness, a word coined by Stanislav Grof, which is a type of consciousness that moves someone towards healing and wholeness.
                </h4>
                   <h2 style={ApproachTextStyles}>What is integration?</h2>
                   <h4 style={ApproachDescriptionTextStyles}>
