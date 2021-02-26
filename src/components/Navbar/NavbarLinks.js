@@ -9,7 +9,7 @@ import '../../styles/navbarlinks.css'
 
 const NavItem = styled(Link)`
   text-decoration: none;
-  color: white;
+  color: whitesmoke;
   display: inline-block;
   white-space: nowrap;
   margin: 0 1vw;
@@ -31,7 +31,7 @@ const NavItem = styled(Link)`
   }
 
   :hover {
-    color: #9ca4ac;
+    color: gray;
     ::after {
       width: 100%;
     }
@@ -47,11 +47,11 @@ const NavItem = styled(Link)`
 const NavbarLinks = () => {
    return (
       <>
-         <Logo />
+         {/* <Logo /> */}
          <NavItem to="/">Home</NavItem>
          <NavItem to="/about">About</NavItem>
-         <NavItem to="/services">
-            <div class="dropdown">
+         <NavItem to="/services">Services</NavItem>
+            {/* <div class="dropdown">
                <span>Services</span>
                <div class="dropdown-content">
                   <p to="/services#individual-kap">Individual KAP  </p>
@@ -60,18 +60,18 @@ const NavbarLinks = () => {
                   <p class="dropdown-item" to="/services">Fees </p>
                </div>
             </div>
-         </NavItem>
-         <NavItem to="/resources">
-            <div class="dropdown">
+         </NavItem> */}
+         <NavItem to="/resources">Resources</NavItem>
+            {/* <div class="dropdown">
                <span>Resources</span>
                <div class="dropdown-content">
                   <p to="/services">Articles/videos </p>
                   <p class="dropdown-item" to="/services">Research </p>
                   <p class="dropdown-item" to="/services">Forms </p>
-                  {/* <p class="dropdown-item" to="/faq">FAQ </p> */}
+                  {/* <p class="dropdown-item" to="/faq">FAQ </p>
                </div>
             </div>
-         </NavItem>
+         </NavItem> */}
          <NavItem to="/faq">FAQ</NavItem>
          <NavItem to="/contact">Contact</NavItem>
       </>

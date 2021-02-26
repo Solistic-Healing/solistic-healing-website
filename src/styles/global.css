@@ -4,4 +4,9 @@ html {
 
 body {
    margin: 0px;
+   font-family: Tahoma, sans-serif;
 }
+
+a {
+   color: #2f4f4f;
+ }

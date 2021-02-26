@@ -45,15 +45,10 @@ const TitleHeadingStyles = {
    textAlign: 'center'
 }
 
-const SectionTitle = {
-   color: '#C0C0C0',
-   marginLeft: '40px',
-   textAlign: 'left'
-}
-
 const ApproachLayoutStyles = {
    // border: '3px solid whitesmoke',
-   backgroundColor: '#101010',
+   backgroundColor: 'black',
+   opacity: '85%',
    border: '3px solid #404040',
    width: '95%',
    marginLeft: 'auto',
@@ -63,7 +58,7 @@ const ApproachLayoutStyles = {
 
 const BottomApproachLayoutStyles = {
    // border: '3px solid whitesmoke',
-   backgroundColor: '#101010',
+   // backgroundColor: '#101010',
    border: '3px solid #404040',
    width: '95%',
    marginLeft: 'auto',
@@ -143,47 +138,38 @@ const kap = {
 
 const FAQ = () => {
    return (
-      <div>
-         <div style={NavStyle}>
-            <Navbar />
+      <div id="app">
+         <title>FAQ</title>
+         <Navbar />
+         <h1 style={TitleHeadingStyles}>
+            FAQ
+         </h1>
+         <h2 style={SectionTitle}>Ketamine</h2>
+         <div style={primaryContentStyles}>
+            <div>
+               <h3 style={ApproachTextStyles}>What is ketamine?</h3>
+               <h4 style={ApproachDescriptionTextStyles}> Ketamine is classified as a dissociative anesthetic. Ketamine is an NMDA receptor antagonist that causes a disruption in the Default Mode Network (DMN). The DMN is network of brain regions that are coherent when we are engaging in introspection.  </h4>
+               <h3 style={ApproachTextStyles}>What is ketamine used to treat at Solistic Healing?</h3>
+               <h4 style={ApproachDescriptionTextStyles}>
+                  Ketamine has shown to be effective for treating anxiety, post-traumatic stress disorder, major depression, and substance use disorders for alcohol and opioids.
+               </h4>
+               <h3 style={ApproachTextStyles}>How does ketamine work?</h3>
+               <h4 style={ApproachDescriptionTextStyles}>
+                  Ketamine works by allowing people to take a break from their everyday ordinary waking consciousness. People tend to have a more relaxed mind with a reduction in negative thinking that allows people to process their thoughts, beliefs, behaviors, emotions and past memories. This increase in flexible thinking is what can lead to new insights and understandings that allow personal transformation and change to occur.
+               </h4>
+            </div>
          </div>
-         <main style={pageStyles}>
-            {/* TAB TITLE */}
-            <title>FAQ</title>
-            {/* PAGE HEADING */}
-            <div style={TitleContentStyles}>
-               <h1 style={TitleHeadingStyles}>
-                  FAQ
-           </h1>
-            </div>
-            <img style={star} src={shootingstar} />
-            <h1 style={SectionTitle}>Ketamine</h1>
-            <div style={ApproachLayoutStyles}>
-               <div>
-                  <h2 style={ApproachTextStyles}>What is ketamine?</h2>
-                  <h4 style={ApproachDescriptionTextStyles}> Ketamine is classified as a dissociative anesthetic. Ketamine is an NMDA receptor antagonist that causes a disruption in the Default Mode Network (DMN). The DMN is network of brain regions that are coherent when we are engaging in introspection.  </h4>
-                  <h2 style={ApproachTextStyles}>What is ketamine used to treat at Solistic Healing?</h2>
-                  <h4 style={ApproachDescriptionTextStyles}>
-                     Ketamine has shown to be effective for treating anxiety, post-traumatic stress disorder, major depression, and substance use disorders for alcohol and opioids.
-               </h4>
-                  <h2 style={ApproachTextStyles}>How does ketamine work?</h2>
-                  <h4 style={ApproachDescriptionTextStyles}>
-                     Ketamine works by allowing people to take a break from their everyday ordinary waking consciousness. People tend to have a more relaxed mind with a reduction in negative thinking that allows people to process their thoughts, beliefs, behaviors, emotions and past memories. This increase in flexible thinking is what can lead to new insights and understandings that allow personal transformation and change to occur.
-               </h4>
-               </div>
-            </div>
-            <br />
-            <h1 style={SectionTitle}>Ketamine-Assisted Therapy</h1>
-            <div style={ApproachLayoutStyles}>
-               <div>
-                  <h2 style={ApproachTextStyles}>What is Ketamine-assisted psychotherapy?</h2>
+         <h2 style={SectionTitle}>Ketamine-Assisted Therapy</h2>
+         <div style={primaryContentStyles}>
+         <div>
+                  <h3 style={ApproachTextStyles}>What is Ketamine-assisted psychotherapy?</h3>
                   <h4 style={ApproachDescriptionTextStyles}>
                      Ketamine-assisted psychotherapy is using ketamine as a catalyst to enhance the therapeutic process. Ketamine allows people to access material that is normally hidden from conscious awareness to then process unresolved emotions and memories that are affecting their present self. Ketamine induces a holotropic state of consciousness, a word coined by Stanislav Grof, which is a type of consciousness that moves someone towards healing and wholeness.
                </h4>
-                  <h2 style={ApproachTextStyles}>What is integration?</h2>
+                  <h3 style={ApproachTextStyles}>What is integration?</h3>
                   <h4 style={ApproachDescriptionTextStyles}>
                      Integration is how you can maximize the benefits of KAP by starting to implement new ways of thinking and behaving into your life. It is a time to notice shifts in your life that can lead to transformation and change. Integration is about connecting the dots between past experiences and creating new meaning in your life. Integration is an ongoing process. Common practices of integration include meditation, journaling, spending time in nature, creating art, and other practices that allow you to reflect on and remember the important insights of your ketamine experience.               </h4>
-                  <h2 style={ApproachTextStyles}>What is the process of KAP?</h2>
+                  <h3 style={ApproachTextStyles}>What is the process of KAP?</h3>
                   <h4 style={ApproachDescriptionTextStyles}>
                      There are three main components to KAP:
                   <ul style={kap}>
@@ -193,29 +179,28 @@ const FAQ = () => {
                      </ul>
                   The preparation stage first includes a medical and psychological intake to determine if KAP is appropriate and safe for you. The next part of the preparation stage is discussing intentions and what you hope to gain from your ketamine experience. Psychoeducation will be given on how to best navigate the ketamine space to receive the most benefits from your experience.
                </h4>
-                  <h2 style={ApproachTextStyles}>How many sessions will I need?</h2>
+                  <h3 style={ApproachTextStyles}>How many sessions will I need?</h3>
                   <h4 style={ApproachDescriptionTextStyles}>
                      The amount of sessions will depend on each individual person. Typically people will do 3-6 sessions in a 2-3 week period. People can then do additional “booster” sessions to continue to maintain the benefits of KAP.
                </h4>
-                  <h2 style={ApproachTextStyles}>What are the side effects of KAP?</h2>
+                  <h3 style={ApproachTextStyles}>What are the side effects of KAP?</h3>
                   <h4 style={ApproachDescriptionTextStyles}>
                      TBD
                </h4>
-                  <h2 style={ApproachTextStyles}>What is the role of touch?</h2>
+                  <h3 style={ApproachTextStyles}>What is the role of touch?</h3>
                   <h4 style={ApproachDescriptionTextStyles}>
                      Some of our deepest wounds are from childhood and hold a strong persistent sense of aloneness. It is often not enough to hear verbally that we are not alone, sometimes our system needs to feel that we are not alone through touch. Over the course of therapy our clinicians will offer therapeutic touch to create safety for these types of wounds to be felt and healed. Consent is always a part of this intervention and is built upon over time, carefully between the client and the therapist. Touch is not a requirement of therapy, so please do not hesitate to share with your therapist any concerns or objections you may have at any time.
                </h4>
-                  <h2 style={ApproachTextStyles}>What is the role of music?</h2>
+                  <h3 style={ApproachTextStyles}>What is the role of music?</h3>
                   <h4 style={ApproachDescriptionTextStyles}>
                      Music is used to deepen the experience and act as a guide during the session.
                </h4>
                </div>
             </div>
-            <br />
-            <h1 style={SectionTitle}>Psychedelic Somatic Interactional Psychotherapy </h1>
-            <div style={BottomApproachLayoutStyles}>
+            <h2 style={SectionTitle}>Psychedelic Somatic Interactional Psychotherapy </h2>
+            <div style={primaryContentStyles}>
                <div>
-                  <h2 style={ApproachTextStyles}>What is psychedelic somatic interactional psychotherapy (PSIP)?</h2>
+                  <h3 style={ApproachTextStyles}>What is psychedelic somatic interactional psychotherapy (PSIP)?</h3>
                   <h4 style={ApproachDescriptionTextStyles}>
                      There are three main components to KAP:
                   <ul style={kap}>
@@ -236,17 +221,33 @@ const FAQ = () => {
                      </ul>
                   The preparation stage first includes a medical and psychological intake to determine if KAP is appropriate and safe for you. The next part of the preparation stage is discussing intentions and what you hope to gain from your ketamine experience. Psychoeducation will be given on how to best navigate the ketamine space to receive the most benefits from your experience.
                </h4>
-                  <h2 style={ApproachTextStyles}>How does ketamine work?</h2>
+                  <h3 style={ApproachTextStyles}>How does ketamine work?</h3>
                   <h4 style={ApproachDescriptionTextStyles}>
                      Ketamine works by allowing people to take a break from their everyday ordinary waking consciousness. People tend to have a more relaxed mind with a reduction in negative thinking that allows people to process their thoughts, beliefs, behaviors, emotions and past memories. This increase in flexible thinking is what can lead to new insights and understandings that allow personal transformation and change to occur.
                </h4>
                </div>
-            </div>
-            <br />
-            <br />
-         </main>
-         <BottomBar />
-      </div>
+            </div> 
+          <BottomBar />
+       </div>
    )
 }
 export default FAQ;
+
+const SectionTitle = {
+   color: 'whitesmoke',
+   paddingLeft: '35px',
+   textAlign: 'left'
+}
+
+const primaryContentStyles = {
+   margin: 'auto',
+   marginTop: '10px',
+   maginBottom: '50px',
+   width: '86%',
+   border: '1px solid gray',
+   backgroundColor: 'black',
+   opacity: '90%',
+   borderRadius: '5px',
+   padding: '10px',
+   marginBottom: '75px'
+}

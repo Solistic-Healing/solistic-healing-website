@@ -18,13 +18,13 @@ const footer = {
    bottom: 0,
    width: '100%',
    height: '35px',
-   // backgroundColor: '#dcdcdc',
-   backgroundColor: 'white',
+   backgroundColor: '#363636',
    // color: 'gray',
    color: 'black',
    fontStyle: 'italic',
    fontFamily: 'Helvetica, cursive',
    fontSize: '12px',
+   color: 'white'
    // margin: 'auto'
 }
 
@@ -119,7 +119,7 @@ const BottomBar = () => {
    return (
       <div style={footer}>
       <div style={footerContent}>
-         <div><b>Hours | </b> M - F 8pm - 5pm CST</div>
+         <div><b>Phone Number | </b> (612) 412-4873</div>
          <div id='email'><b>© Solistic Healing 2021</b></div>
          <div><b>Email | </b> ericpeterson@solistichealing.org</div>
       </div>

@@ -7,7 +7,8 @@ import styled from 'styled-components'
 const Navigation = styled.nav`
   height: 75px;
   display: flex;
-  background-color: #383c66;
+  background-color: black;
+  opacity: 90%;
   position: relative;
   justify-content: space-between;
   text-transform: uppercase;
@@ -50,7 +51,7 @@ const Navbox = styled.div`
     width: 100%;
     justify-content: flex-start;
     padding-top: 10vh;
-    background-color: #111;
+    background-color: black;
     transition: all 0.3s ease-in;
     top: 8vh;
     left: ${props => (props.open ? "-100%" : "0")};
