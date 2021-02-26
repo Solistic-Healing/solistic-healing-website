@@ -42,7 +42,7 @@ const headingStyles = {
 const secondaryContentStyles = {
    margin: 'auto',
    marginTop: '5vh',
-   width: 'auto',
+   width: '90%',
    backgroundColor: '#363636',
    opacity: '80%',
    borderRadius: '5px',

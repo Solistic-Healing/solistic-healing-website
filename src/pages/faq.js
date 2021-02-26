@@ -138,7 +138,7 @@ const kap = {
 
 const FAQ = () => {
    return (
-      <div id="app">
+      <div class='bg'>
          <title>FAQ</title>
          <Navbar />
          <h1 style={TitleHeadingStyles}>
@@ -227,6 +227,11 @@ const FAQ = () => {
                </h4>
                </div>
             </div> 
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
           <BottomBar />
        </div>
    )
@@ -242,12 +247,12 @@ const SectionTitle = {
 const primaryContentStyles = {
    margin: 'auto',
    marginTop: '10px',
-   maginBottom: '50px',
+   // maginBottom: '50px',
    width: '86%',
    border: '1px solid gray',
-   backgroundColor: 'black',
+   // backgroundColor: 'black',
    opacity: '90%',
    borderRadius: '5px',
    padding: '10px',
-   marginBottom: '75px'
+   // marginBottom: '75px'
 }

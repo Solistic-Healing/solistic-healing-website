@@ -8,8 +8,9 @@ import '../styles/bottombar.css'
 
 const footerContent = {
    padding: '10px',
-   textAlign: 'center',
    display: 'flex',
+   textAlign: 'center',
+   alignItems: 'center',
    justifyContent: 'space-between'
 }
 const footer = {
@@ -17,14 +18,15 @@ const footer = {
    left: 0,
    bottom: 0,
    width: '100%',
-   height: '35px',
+   height: '6vh',
    backgroundColor: '#363636',
    // color: 'gray',
    color: 'black',
-   fontStyle: 'italic',
-   fontFamily: 'Helvetica, cursive',
-   fontSize: '12px',
-   color: 'white'
+   // fontStyle: 'italic',
+   // fontFamily: 'Helvetica, cursive',
+   fontSize: '14px',
+   color: 'white',
+   // marginTop: '400px'
    // margin: 'auto'
 }
 

@@ -8,7 +8,7 @@ const Navigation = styled.nav`
   height: 75px;
   display: flex;
   background-color: black;
-  opacity: 90%;
+  opacity: 100%;
   position: relative;
   justify-content: space-between;
   text-transform: uppercase;
@@ -59,7 +59,7 @@ const Navbox = styled.div`
 `
 
 const Hamburger = styled.div`
-  background-color: #111;
+  background-color: whitesmoke;
   width: 30px;
   height: 3px;
   transition: all .3s linear;
@@ -71,7 +71,7 @@ const Hamburger = styled.div`
   ::after {
     width: 30px;
     height: 3px;
-    background-color: #111;
+    background-color: whitesmoke;
     content: "";
     position: absolute;
     transition: all 0.3s linear;

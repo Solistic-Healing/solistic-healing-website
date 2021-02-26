@@ -3,10 +3,11 @@ import Navbar from "../components/Navbar/Navbar"
 import BottomBar from "../components/BottomBar"
 import eric from "../assets/img/eric.jpg"
 import ric from "../assets/img/ric.jpg"
+import "../styles/about.css"
 
 const About = () => {
    return (
-      <div id="app">
+      <div class='bg'>
          <title>About</title>
          <Navbar/>
             <div style={contentContainer}>
@@ -21,12 +22,12 @@ const About = () => {
                   <img style={activeEric} src={eric}/>
                </div>
             </div>
+            {/* <br></br> */}
          <BottomBar/>
       </div>
    )
 }
 export default About;
-
 
 const ricky = {
    height: '200px',
@@ -41,12 +42,14 @@ const activeEric = {
   border: '1px solid gray',
   backgroundColor: 'black',
   marginTop: '25px',
+  marginBottom: '50px'
 }
 const contentContainer = {
    display: 'flex',
    flexDirection: 'row',
    flexWrap: 'wrap',
    justifyContent: 'space-evenly',
+   height: '100vh'
 }
 const picturesContainer = {
    display: 'flex',
@@ -60,8 +63,8 @@ const infoContainer = {
   flexDirection: 'column'
 }
 const bioStyle = {
-  border: '1px solid gray',
-  backgroundColor: 'black',
+//   border: '1px solid gray',
+//   backgroundColor: 'black',
   color: 'whitesmoke',
   opacity: '85%',
   borderRadius: '5px',

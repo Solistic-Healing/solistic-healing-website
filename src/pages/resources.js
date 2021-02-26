@@ -4,7 +4,7 @@ import BottomBar from "../components/BottomBar"
 
 const Resources = () => {
    return (
-      <div id="app">
+      <div class="bg">
          <title>Resources</title>
          <Navbar />
          <h1 style={TitleHeadingStyles}>
@@ -15,6 +15,29 @@ const Resources = () => {
                <h3 id="individual-kap" style={SectionTitle}>Coming Soon </h3>
             </div>
          </div>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
          <BottomBar />
       </div>
    )
@@ -23,15 +46,15 @@ export default Resources;
 
 const primaryContentStyles = {
    margin: 'auto',
-   marginTop: '10px',
-   maginBottom: '50px',
+   // marginTop: '10px',
+   // maginBottom: '50px',
    width: '86%',
-   border: '1px solid gray',
-   backgroundColor: 'black',
+   // border: '1px solid gray',
+   // backgroundColor: 'black',
    opacity: '85%',
    borderRadius: '5px',
    padding: '20px',
-   marginBottom: '75px'
+   // marginBottom: '75px'
 }
 
 const TitleHeadingStyles = {
