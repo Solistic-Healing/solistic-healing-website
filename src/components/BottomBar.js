@@ -121,9 +121,15 @@ const BottomBar = () => {
    return (
       <div style={footer}>
       <div style={footerContent}>
-         <div><b>Phone Number | </b> (612) 412-4873</div>
+         <div>
+            {/* <b>Phone Number | </b>  */}
+            (612) 412-4873
+         </div>
          <div id='email'><b>© Solistic Healing 2021</b></div>
-         <div><b>Email | </b> ericpeterson@solistichealing.org</div>
+         <div>
+            {/* <b>Email | </b>  */}
+            ericpeterson@solistichealing.org
+         </div>
       </div>
    </div>
    )

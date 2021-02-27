@@ -32,14 +32,14 @@ export default About;
 const ricky = {
    height: '200px',
    borderRadius: '5px',
-   border: '1px solid gray',
+   // border: '1px solid gray',
    backgroundColor: 'black',
    marginTop: '25px',
 }
 const activeEric = {
   height: '300px',
   borderRadius: '5px',
-  border: '1px solid gray',
+//   border: '1px solid gray',
   backgroundColor: 'black',
   marginTop: '25px',
   marginBottom: '50px'

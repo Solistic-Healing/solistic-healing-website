@@ -27,26 +27,29 @@ export default IndexPage
 
 const primaryContentStyles = {
    margin: 'auto',
-   marginTop: '20vh',
+   marginTop: '5vh',
    width: '50%',
-   border: '1px solid gray',
-   backgroundColor: 'black',
-   opacity: '75%',
+   // border: '1px solid gray',
+   // backgroundColor: 'black',
+   opacity: '90%',
    borderRadius: '5px',
    padding: '20px'
 }
 const headingStyles = {
    color: 'white',
-   textAlign: 'center'
+   textAlign: 'center',
+   fontSize: '60px'
 }
 const secondaryContentStyles = {
    margin: 'auto',
    marginTop: '5vh',
    width: '90%',
-   backgroundColor: '#363636',
+   // backgroundColor: '#363636',
    opacity: '80%',
-   borderRadius: '5px',
-   padding: '.1px'
+   // borderRadius: '5px',
+   padding: '.1px',
+   fontStyle: 'oblique',
+   fontFamily: 'cursive'
 }
 const secondaryHeadingStyles = {
    color: 'white',
