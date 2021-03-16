@@ -16,7 +16,12 @@ const About = () => {
                   <div style={bioStyle}>
                      I received my M.A in Counseling and Psychological Services from Saint Mary’s University of Minnesota with a Graduate Certificate in Addiction Studies. I currently hold an alcohol and drug counseling licence (LADC) and I am receiving supervision to obtain my license for professional clinical counseling (LPCC) in the state of Minnesota. I also hold a B.A. in Psychology. I have received training in psychedelic integration from <a href="https://www.fluence8.com">Fluence</a>, ketamine-assisted therapy training from <a href="https://www.polarisinsight.com">Polaris</a> Insight Center, and Psychedelic Somatic Interactional Psychotherapy from the <a href="https://www.psychedelicsomatic.org">Psychedelic Somatic Institute</a>. 
                   </div>
-               </div>
+                  <div style={bioStyle}>
+                     My approach to healing is informed by cognitive-behavioral therapy, transpersonal psychology, person-centered therapy, & somatic and mindfulness-based therapies. I work through a biological, psychological, spiritual, and social lense when interacting with my patients. I take a strong look at how systems of oppression and control affect the mental, physical, and spiritual well-being of individuals. I believe that developing a safe and secure relationship with each of my patients is essential for them to learn new ways of thinking and behaving, to find meaning and purpose in their life, and to move towards creating a whole and complete sense of self. 
+                  </div>
+                  <div style={bioStyle}>
+                     When I am not in my therapist role, attending trainings, or giving presentations, you can find me either rollerblading, skiing, or spending time in nature.                  </div>
+                  </div>
                <div style={picturesContainer}>
                   <img style={ricky} src={ric}/>
                   <img style={activeEric} src={eric}/>

@@ -13,6 +13,9 @@ const IndexPage = () => {
                Solistic Healing
             </h1>
          </div>
+         <h1 style={descriptionHeadingStyles}>
+               Offering individual psychotherapy, ketamine-assisted psychotherapy, and psychedelic integration services.            
+         </h1>
          <div style={secondaryContentStyles}>
             <h3 style={secondaryHeadingStyles}>
                The two most important days in your life are the day you're born and the day you find out why <br></br>- Mark Twain
@@ -56,3 +59,7 @@ const secondaryHeadingStyles = {
    textAlign: 'center'
 }
 
+const descriptionHeadingStyles = {
+   color: 'white',
+   textAlign: 'center'
+}

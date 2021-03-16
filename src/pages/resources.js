@@ -13,9 +13,13 @@ const Resources = () => {
             </h1>
             <div style={primaryContentStyles}>
                <div style={TitleContentStyles}>
-                  <h3 id="individual-kap" style={SectionTitle}>Coming Soon - </h3>
+                  <h3 id="individual-kap" style={SectionTitle}>Visit the following websites for more resources - </h3>
                   <h5 style={ApproachDescriptionTextStyles}>
-                     TBD
+                     <ul>
+                        <li>  <a style={links} href='https://www.kriyainstitute.com/articles/'> https://www.kriyainstitute.com/articles/ </a> </li>
+                        <li> <a style={links} href='https://www.polarisinsight.com/resources/'> https://www.polarisinsight.com/resources/ </a></li>
+                        <li> <a style={links} href='https://www.psychedelicsomatic.org/resources'> https://www.psychedelicsomatic.org/resources </a></li>
+                     </ul>
                   </h5>
                   <br />
                   {/* <h3 id="individual-kap" style={SectionTitle}>Psychedelic Somatic Interactional Psychotherapy - </h3>
