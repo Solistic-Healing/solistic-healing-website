@@ -73,6 +73,9 @@ const Services = () => {
          <br></br>
             <br></br>
             <br></br>
+         <br></br>
+            <br></br>
+            <br></br>
             <br></br>
          <BottomBar />
       </div>
@@ -111,7 +114,7 @@ const contentContainer = {
    flexDirection: 'row',
    flexWrap: 'wrap',
    justifyContent: 'space-evenly',
-   height: '140vh'
+   // height: '140vh'
 }
 
 const TitleHeadingStyles = {

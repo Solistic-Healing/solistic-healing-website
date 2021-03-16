@@ -54,7 +54,7 @@ const contentContainer = {
    flexDirection: 'row',
    flexWrap: 'wrap',
    justifyContent: 'space-evenly',
-   height: '100vh'
+   // height: '100vh'
 }
 const picturesContainer = {
    display: 'flex',
