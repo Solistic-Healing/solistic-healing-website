@@ -103,7 +103,7 @@ const footerStyles = {
    margin: 'auto',
    width: '50%',
    border: '3px solid #003b59',
-   padding: '10px'
+   padding: '15px',
 }
 
 const contentContainer = {
