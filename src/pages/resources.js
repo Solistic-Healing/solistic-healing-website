@@ -13,7 +13,7 @@ const Resources = () => {
             </h1>
             <div style={primaryContentStyles}>
                <div style={TitleContentStyles}>
-                  <h3 id="individual-kap" style={SectionTitle}>Visit the following websites for more resources - </h3>
+                  <h3 style={SectionTitle}>Visit the following websites for more resources - </h3>
                   <h5 style={ApproachDescriptionTextStyles}>
                      <ul>
                         <li>  <a style={links} href='https://www.kriyainstitute.com/articles/'> https://www.kriyainstitute.com/articles/ </a> </li>
@@ -85,15 +85,16 @@ const contentContainer = {
 const TitleHeadingStyles = {
    color: 'whitesmoke',
    padding: '10px',
-   textAlign: 'center'
+   textAlign: 'center',
+   // display: 'flex',
 }
 
 const SectionTitle = {
    display: 'flex',
-   wrap: 'wrap',
+   // wrap: 'wrap',
    color: '#C0C0C0',
    textAlign: 'left',
-   lineHeight: '.5px'
+   // lineHeight: '.5px'
 }
 const TitleContentStyles = {
    margin: 'auto',

@@ -128,7 +128,7 @@ const SectionTitle = {
    wrap: 'wrap',
    color: '#C0C0C0',
    textAlign: 'left',
-   lineHeight: '.5px'
+   // lineHeight: '.5px'
 }
 const TitleContentStyles = {
    margin: 'auto',
