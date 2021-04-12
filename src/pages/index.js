@@ -14,7 +14,7 @@ const IndexPage = () => {
             </h1>
          </div>
          <div style={descriptionHeadingStyles}>
-               Offering individual psychotherapy, ketamine-assisted psychotherapy, and psychedelic integration services.            
+               Offering individual psychotherapy, ketamine-assisted psychotherapy, psychedelic somatic interactional psychotherapy, and psychedelic integration services            
          </div>
          <div style={secondaryContentStyles}>
             <h3 style={secondaryHeadingStyles}>
@@ -30,13 +30,13 @@ export default IndexPage
 
 const primaryContentStyles = {
    margin: 'auto',
-   marginTop: '5vh',
+   marginTop: '0vh',
    width: '50%',
    // border: '1px solid gray',
    // backgroundColor: 'black',
    opacity: '90%',
    borderRadius: '5px',
-   padding: '20px'
+   padding: '10px'
 }
 const headingStyles = {
    color: 'white',
@@ -45,7 +45,8 @@ const headingStyles = {
 }
 const secondaryContentStyles = {
    margin: 'auto',
-   marginTop: '5vh',
+   marginTop: '12vh',
+   marginBottom: '10vh',
    width: '90%',
    // backgroundColor: '#363636',
    opacity: '80%',
@@ -63,6 +64,8 @@ const descriptionHeadingStyles = {
    color: 'white',
    textAlign: 'center',
    marginHorizontal: '100px',
-   fontSize: '30px',
+   // paddingHorizonal: 10,
+   padding: 4,
+   fontSize: '25px',
    fontFamily: 'Tahoma, sans-serif'
 }

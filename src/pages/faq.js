@@ -133,7 +133,16 @@ const faqAccentStyles = {
 
 const kap = {
    // fontStyle: 'italic',
-   margin: '15px'
+   margin: '15px',
+   // display: 'flex',
+   // wrap: 'wrap',
+}
+
+const kapTest = {
+   // fontStyle: 'italic',
+   margin: '15px',
+   display: 'flex',
+   wrap: 'wrap',
 }
 
 const FAQ = () => {
@@ -162,10 +171,10 @@ const FAQ = () => {
                </h4>
             </div>
          </div>
-         <h2 style={SectionTitle}>Ketamine-Assisted Therapy</h2>
+         <h2 style={SectionTitle}>Ketamine-Assisted Psychotherapy</h2>
          <div style={primaryContentStyles}>
          <div>
-                  <h3 style={ApproachTextStyles}>What is Ketamine-assisted psychotherapy?</h3>
+                  <h3 style={ApproachTextStyles}>What is Ketamine-Assisted Psychotherapy?</h3>
                   <h4 style={ApproachDescriptionTextStyles}>
                      KAP is medical treatment with Ketamine Assisted by Psychotherapy. Some people benefit more from ketamine sessions when it is paired with psychotherapy. The treatment protocol includes sessions that will prepare you for your ketamine sessions followed by assisting you in integrating your experiences afterwards.
                      The potential for change is greater when your ketamine sessions are facilitated within a structured, supportive psychotherapeutic environment with a therapist who is aware of your issues, desires, and goals for change.                
