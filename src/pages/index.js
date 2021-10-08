@@ -14,7 +14,7 @@ const IndexPage = () => {
             </h1>
          </div>
          <div style={descriptionHeadingStyles}>
-               Offering individual psychotherapy, ketamine-assisted psychotherapy, psychedelic somatic interactional psychotherapy, and psychedelic integration services            
+               Offering individual psychotherapy, ketamine-assisted psychotherapy, and psychedelic integration services            
          </div>
          <div style={secondaryContentStyles}>
             <h3 style={secondaryHeadingStyles}>

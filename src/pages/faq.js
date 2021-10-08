@@ -215,37 +215,6 @@ const FAQ = () => {
                   </h4>
             </div>
          </div>
-         <h2 style={SectionTitle}>Psychedelic Somatic Interactional Psychotherapy </h2>
-         <div style={primaryContentStyles}>
-            <div>
-               <h3 style={ApproachTextStyles}>What is psychedelic somatic interactional psychotherapy (PSIP)?</h3>
-               <h4 style={ApproachDescriptionTextStyles}>
-                  {/* There are three main components to KAP: */}
-                  <ul style={kap}>
-                     <li>
-                        The PSIP model treats trauma through the body by working directly with the nervous system, relationships and traumatic memory. This approach is a synthesis of mindfulness, brain research, body-based nervous system research, the therapeutic use of non-ordinary states and research on the causes and outcomes of childhood trauma and attachment wounds.
-                     </li>
-                     <li>
-                        What results from this type of therapy is a capacity in working with one' s feelings, a renegotiated relationship to one's body and it's intelligence, an increased sense of agency and insight, and most importantly, an ability to trust oneself and one's experience. The technique is experiential and based in the present moment felt sense input. Please ask for any further information or if this raises any concerns for you.
-                     </li>
-                     <li>
-                        The PSIP modality is designed to:
-                        <ol>
-                           <li>Keep the focus on the personal (versus mystical or transcendent) and relational aspects of a client’s psychological functioning</li>
-                           <li>Activate psychobiological autonomic nervous system based, self correcting mechanisms to process anxiety, stress, depression, dissociation, PTSD, and complex relational trauma</li>
-                           <li>Establish a body based processing pathway that is preferentially engaged by psychedelic medicines due to it being more robust than the cognitive processing channels of secondary consciousness</li>
-                        </ol>
-                     </li>
-                     {/* <li> */}
-                     {/* </li> */}
-                  </ul>
-                        * Check out videos of PSIP sessions to gain a better understanding of the approach and what a session looks like. If you have any questions regarding the PSIP model please reach out to have them answered.
-                        <br/>
-                        <br/>
-                  <a href='https://www.psychedelicsomatic.org/resources'> https://www.psychedelicsomatic.org/resources </a>
-               </h4>
-            </div>
-         </div>
          <br></br>
          <br></br>
          <br></br>

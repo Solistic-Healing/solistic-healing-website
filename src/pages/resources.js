@@ -18,7 +18,7 @@ const Resources = () => {
                      <ul>
                         <li>  <a style={links} href='https://www.kriyainstitute.com/articles/'> https://www.kriyainstitute.com/articles/ </a> </li>
                         <li> <a style={links} href='https://www.polarisinsight.com/resources/'> https://www.polarisinsight.com/resources/ </a></li>
-                        <li> <a style={links} href='https://www.psychedelicsomatic.org/resources'> https://www.psychedelicsomatic.org/resources </a></li>
+                        {/* <li> <a style={links} href='https://www.psychedelicsomatic.org/resources'> https://www.psychedelicsomatic.org/resources </a></li> */}
                      </ul>
                   </h5>
                   <br />
